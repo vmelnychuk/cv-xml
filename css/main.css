@@ -1,0 +1,29 @@
+body {
+    margin: 1em 5% 1em 5%;
+    font-family: "lucida sans unicode", "lucida grande";
+}
+h1 {
+    color: #2461AA;
+    border-bottom: 2px solid #C3D9FF
+}
+
+h2 {
+    color: #2461AA;
+    font-size: 14pt;
+    margin: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #C3D9FF
+}
+
+p {
+    font-size: 16px;
+}
+
+.contact-label {
+    font-weight: bold;
+}
+
+.skill-tag {
+    font-weight: bold;
+}
