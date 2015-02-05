@@ -84,10 +84,12 @@
             </skill>
         </skills-category>
         <skills-category name="Soft skills">
-            <tags>
-                <tag>Languages</tag>
-            </tags>
-            <value>Fluent in Ukrainian, Russian and English</value>
+            <skill>
+                <tags>
+                    <tag>Languages</tag>
+                </tags>
+                <value>Fluent in Ukrainian, Russian and English</value>
+            </skill>
         </skills-category>
     </skills>
 </cv>
