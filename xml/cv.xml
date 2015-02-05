@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+    <name>
+        <first>Vasyl</first>
+        <last>Melnychuk</last>
+    </name>
+    <contacts>
+        <contact name="email">vmmelnychuk@gmail.com</contact>
+        <contact name="skype">vasyl.melnychuk.by</contact>
+        <contact name="github">github.com/vmelnychuk</contact>
+        <contact name="web-site">vmelnychuk.github.io</contact>
+    </contacts>
+    <work-experience>
+        <work>
+            <period>
+                <start>Oct 2013</start>
+                <end>Present</end>
+            </period>
+            <organisation>EPAM Systems</organisation>
+            <position>Java developer, XSLT developer, UI developer</position>
+        </work>
+        <work>
+            <period>
+                <start>Feb 2013</start>
+                <end>Jul 2013</end>
+            </period>
+            <organisation>Software MacKiev</organisation>
+            <position>iOS/Mac OS developer</position>
+        </work>
+        <work>
+            <period>
+                <start>Jul 2010</start>
+                <end>Aug 2012</end>
+            </period>
+            <organisation>
+                Institute of Mathematical Machines and Systems Problems (IMMSP)
+            </organisation>
+            <position>Linux administrator, Java web-developer</position>
+        </work>
+        <work>
+            <period>
+                <start>Sep 2008</start>
+                <end>Jul 2010</end>
+            </period>
+            <organisation>Students Internet Center in "Kyiv-Mohyla Academy" (USIC)</organisation>
+            <position>Linux administrator</position>
+        </work>
+        <work>
+            <period>
+                <start>Sep 2007</start>
+                <end>Jun 2008</end>
+            </period>
+            <organisation>thePathos.org (student social network)</organisation>
+            <position>HTML/CSS/JS developer</position>
+        </work>
+    </work-experience>
+    <skills>
+        <skills-category name="Programming skills">
+            <skill>
+                <tags>
+                    <tag>Java</tag>
+                </tags>
+                <value>Java SE, Java EE, Android, EJB, JPA, JMS</value>
+            </skill>
+            <skill>
+                <tags>
+                    <tag>JavaScript</tag>
+                </tags>
+                <value>
+                    jQuery, Underscore.js, Backbone.js, Node.js, Express.js, Socket.io
+                </value>
+            </skill>
+            <skill>
+                <tags>
+                    <tag>Python</tag>
+                </tags>
+                <value>Flask, Django</value>
+            </skill>
+            <skill>
+                <tags>
+                    <tag>XML</tag>
+                </tags>
+                <value>XPath, XSLT, XSL-FO, XSD, DTD</value>
+            </skill>
+        </skills-category>
+        <skills-category name="Soft skills">
+            <tags>
+                <tag>Languages</tag>
+            </tags>
+            <value>Fluent in Ukrainian, Russian and English</value>
+        </skills-category>
+    </skills>
+</cv>
