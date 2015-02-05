@@ -1,14 +1,17 @@
 <project name="cv-xml" basedir=".">
     <description>CV XML to other formats converter</description>
-    <property name="xsl.dir" value="xsl"/>
-    <property name="xml.dir" value="xml"/>
-    <property name="output.dir" value="output"/>
-    <property name="input.file" value="cv.xml"/>
-    <property name="html.stylesheet" value="html.xsl"/>
-    <property name="html.output" value="cv.html"/>
-    <target name="saxon">
+    <property file="build.properties"/>
+    <target name="html">
         <java classname="net.sf.saxon.Transform">
             <arg line="-t -s:${xml.dir}\${input.file} -xsl:${xsl.dir}\${html.stylesheet} -o:${output.dir}\${html.output}"/>
+            <classpath>
+                <pathelement location="lib/saxon9he.jar"/>
+            </classpath>
+        </java>
+    </target>
+    <target name="svg">
+        <java classname="net.sf.saxon.Transform">
+            <arg line="-t -s:${xml.dir}\${input.file} -xsl:${xsl.dir}\${svg.stylesheet} -o:${svg.dir}\${svg.output}"/>
             <classpath>
                 <pathelement location="lib/saxon9he.jar"/>
             </classpath>
