@@ -9,8 +9,20 @@
                 <title>CV</title>
             </head>
             <body>
-                <h1>It works!</h1>
+                <xsl:apply-templates/>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="contacts">
+        <div class="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="contact">
+        <p>
+            <span class="contact-label"><xsl:value-of select="@name"/></span>
+            <span class="contact-value"><xsl:apply-templates/></span>
+        </p>
     </xsl:template>
 </xsl:stylesheet>

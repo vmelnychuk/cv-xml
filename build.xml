@@ -17,4 +17,12 @@
             </classpath>
         </java>
     </target>
+        <target name="markdown">
+        <java classname="net.sf.saxon.Transform">
+            <arg line="-t -s:${xml.dir}\${input.file} -xsl:${xsl.dir}\${markdown.stylesheet} -o:${markdown.dir}\${markdown.output}"/>
+            <classpath>
+                <pathelement location="lib/saxon9he.jar"/>
+            </classpath>
+        </java>
+    </target>
 </project>
